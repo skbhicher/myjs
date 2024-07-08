@@ -1,6 +1,7 @@
 <?php
 
-if(array_key_exists('button1', $_POST)) { 
+if(array_key_exists('button1', $_POST))
+            { 
             button1(); 
         } 
         else if(array_key_exists('button2', $_POST)) { 
@@ -12,4 +13,7 @@ if(array_key_exists('button1', $_POST)) {
         function button2() { 
             echo "This is Button2 that is selected"; 
         } 
+            function button3() {
+                        echo "This is button 3";
+            }
 ?>
